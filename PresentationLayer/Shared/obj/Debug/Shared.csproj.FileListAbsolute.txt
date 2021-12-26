@@ -1,0 +1,5 @@
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\bin\Debug\Shared.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\bin\Debug\Shared.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.pdb
