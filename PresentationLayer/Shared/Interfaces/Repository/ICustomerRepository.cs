@@ -10,7 +10,7 @@ namespace Shared.Interfaces.Repository
     public interface ICustomerRepository
     {
         List<Customer> GetAllCustomers();
-        int DeleteCustomersById(int Id);
+        int DeleteCustomerById(int Id);
         int InsertCustomers(Customer c);
         int UpdateCustomersById(Customer c);
     }

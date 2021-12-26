@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Interfaces.Repository
+namespace Shared.Interfaces.Business
 {
-    public interface IOrderRepository
+    public interface ICategoryBusiness
     {
-        List<Order> GetAllOrders();
+        List<Category> GetAllCategories();
     }
 }

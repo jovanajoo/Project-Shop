@@ -42,6 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Interfaces\Business\ICategoryBusiness.cs" />
+    <Compile Include="Interfaces\Business\ICustomerBusiness.cs" />
+    <Compile Include="Interfaces\Business\IOrderBusiness.cs" />
+    <Compile Include="Interfaces\Business\IProductBusiness.cs" />
+    <Compile Include="Interfaces\Business\IOrderItemBusiness.cs" />
+    <Compile Include="Interfaces\Repository\ICategoryRepository.cs" />
+    <Compile Include="Interfaces\Repository\ICustomerRepository.cs" />
+    <Compile Include="Interfaces\Repository\IOrderItemRepository.cs" />
+    <Compile Include="Interfaces\Repository\IOrderRepository.cs" />
+    <Compile Include="Interfaces\Repository\IProductRepository.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Order.cs" />
@@ -49,5 +59,6 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

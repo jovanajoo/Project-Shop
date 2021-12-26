@@ -12,7 +12,7 @@ namespace DataAccessLayer
     public class CustomerRepository : ICustomerRepository
     {
 
-        public List<Customer> GetAllCustomer() 
+        public List<Customer> GetAllCustomers() 
         {
             List<Customer> results = new List<Customer>();
             SqlDataReader sqlDataReader = DBConnection.GetData("SELECT * FROM Customers");
