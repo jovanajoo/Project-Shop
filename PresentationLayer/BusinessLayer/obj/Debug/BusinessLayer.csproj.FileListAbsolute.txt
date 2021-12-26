@@ -1,0 +1,5 @@
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
