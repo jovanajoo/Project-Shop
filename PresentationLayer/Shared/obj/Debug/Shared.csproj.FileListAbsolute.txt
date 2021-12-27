@@ -3,3 +3,4 @@ C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\bin\Debug\Shared.p
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.dll
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\Shared\obj\Debug\Shared.csprojAssemblyReference.cache

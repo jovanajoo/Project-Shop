@@ -7,3 +7,12 @@ C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Deb
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Shared.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Shared.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.Login.resources
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.MainForm.resources
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete

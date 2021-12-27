@@ -3,3 +3,9 @@ C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\B
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\Shared.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\bin\Debug\Shared.pdb
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete

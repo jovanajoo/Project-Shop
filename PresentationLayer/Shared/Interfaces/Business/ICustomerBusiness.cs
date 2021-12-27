@@ -12,5 +12,6 @@ namespace Shared.Interfaces.Business
         List<Customer> GetAllCustomers();
         bool InsertCustomer(Customer c);
         bool DeleteCustomerById(int Id);
+        Customer GetCustomerByUserAndPass(string User, string Pass);
     }
 }

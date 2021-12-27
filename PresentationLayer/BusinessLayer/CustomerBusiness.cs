@@ -43,5 +43,20 @@ namespace BusinessLayer
             }
         }
 
+        public Customer GetCustomerByUserAndPass(string User, string Pass)
+        {
+            return this.customerRepository.GetAllCustomers().FirstOrDefault(c =>
+           {
+               if(c.UserName == User && c.Password == Pass)
+               {
+                   return true;
+               }
+               else
+               {
+                   return false;
+               }
+           });
+        }
+
     }
 }
