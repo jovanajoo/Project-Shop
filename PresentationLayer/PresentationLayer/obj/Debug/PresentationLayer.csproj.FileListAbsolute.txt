@@ -16,3 +16,16 @@ C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Deb
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.Login.resources
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.MainForm.resources
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.Administration.resources
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.Registration.resources
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.UpdateProduct.resources

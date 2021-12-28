@@ -29,6 +29,7 @@ namespace PresentationLayer
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -48,6 +49,7 @@ namespace PresentationLayer
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
@@ -58,7 +60,6 @@ namespace PresentationLayer
             this.panel1.Controls.Add(this.buttonLogin);
             this.panel1.Controls.Add(this.textBoxPassword);
             this.panel1.Controls.Add(this.textBoxUserName);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -81,7 +82,7 @@ namespace PresentationLayer
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(356, 172);
+            this.label4.Location = new System.Drawing.Point(359, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(205, 32);
             this.label4.TabIndex = 10;
@@ -175,12 +176,12 @@ namespace PresentationLayer
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PresentationLayer.Properties.Resources.accountlogin_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(182, 21);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(216, 26);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 148);
+            this.pictureBox1.Size = new System.Drawing.Size(176, 133);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
             // Login
@@ -205,7 +206,6 @@ namespace PresentationLayer
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.TextBox textBoxUserName;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.Label labelUserName;
         private System.Windows.Forms.Label label5;
@@ -213,5 +213,6 @@ namespace PresentationLayer
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonToReg;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
