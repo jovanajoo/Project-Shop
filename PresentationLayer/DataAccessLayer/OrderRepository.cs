@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Shared;
 
 namespace DataAccessLayer
 {
@@ -28,6 +29,46 @@ namespace DataAccessLayer
             }
             DBConnection.CloseConnection();
             return results;
+        }
+
+        public int InsertOrders(Order o)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
+            {
+                var result = DBConnection.EditData(string.Format("INSERT INTO Orders VALUES('{0}', '{1}', '{2}')",
+                    o.OrderDate, o.DeliveryDate, o.CustomerID));
+                DBConnection.CloseConnection();
+                return result;
+            }
+        }
+
+        public int GetNewOrder()
+        {
+            SqlDataReader sqlDataReader = DBConnection.GetData(string.Format("SELECT IDENT_CURRENT('Orders')"));
+
+            sqlDataReader.Read();
+            var result = Convert.ToInt32(sqlDataReader[0]);
+            DBConnection.CloseConnection();
+            return result;
+        }
+        public int DeleteOrdersById(int OrderID)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection())
+            {
+                var result = DBConnection.EditData(string.Format("DELETE FROM Orders WHERE OrderID = {0}", OrderID));
+
+                DBConnection.CloseConnection();
+                return result;
+            }
+        }
+
+        public int UpdateOrder(Order o)
+        {
+            var result = DBConnection.EditData(string.Format("UPDATE Orders SET Order_Date ='{0}' ,Delivery_Date ='{1}' ,CustomerId ='{2}' WHERE OrderID = '{3}'"
+            , o.OrderDate, o.DeliveryDate, o.CustomerID, o.OrderID));
+
+            DBConnection.CloseConnection();
+            return result;
         }
     }
 }

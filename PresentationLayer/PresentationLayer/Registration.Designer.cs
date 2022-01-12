@@ -31,6 +31,7 @@ namespace PresentationLayer
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registration));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonToReg = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.buttonRegistration = new System.Windows.Forms.Button();
@@ -48,7 +49,6 @@ namespace PresentationLayer
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxUsername = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,16 +80,25 @@ namespace PresentationLayer
             this.panel1.Size = new System.Drawing.Size(797, 588);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(421, 58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(263, 225);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // buttonToReg
             // 
             this.buttonToReg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
             this.buttonToReg.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonToReg.ForeColor = System.Drawing.Color.White;
-            this.buttonToReg.Location = new System.Drawing.Point(443, 473);
+            this.buttonToReg.Location = new System.Drawing.Point(449, 440);
             this.buttonToReg.Name = "buttonToReg";
             this.buttonToReg.Size = new System.Drawing.Size(207, 43);
             this.buttonToReg.TabIndex = 20;
-            this.buttonToReg.Text = "Click here to registrated";
+            this.buttonToReg.Text = "Click here to login";
             this.buttonToReg.UseVisualStyleBackColor = false;
             // 
             // label9
@@ -97,7 +106,7 @@ namespace PresentationLayer
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(471, 427);
+            this.label9.Location = new System.Drawing.Point(477, 394);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(149, 23);
             this.label9.TabIndex = 19;
@@ -108,7 +117,7 @@ namespace PresentationLayer
             this.buttonRegistration.BackColor = System.Drawing.Color.Beige;
             this.buttonRegistration.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRegistration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
-            this.buttonRegistration.Location = new System.Drawing.Point(441, 360);
+            this.buttonRegistration.Location = new System.Drawing.Point(447, 327);
             this.buttonRegistration.Name = "buttonRegistration";
             this.buttonRegistration.Size = new System.Drawing.Size(208, 40);
             this.buttonRegistration.TabIndex = 18;
@@ -249,21 +258,13 @@ namespace PresentationLayer
             this.textBoxUsername.Size = new System.Drawing.Size(232, 30);
             this.textBoxUsername.TabIndex = 1;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(443, 58);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(208, 188);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(797, 588);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Registration";
             this.Text = "Registration";
             this.panel1.ResumeLayout(false);

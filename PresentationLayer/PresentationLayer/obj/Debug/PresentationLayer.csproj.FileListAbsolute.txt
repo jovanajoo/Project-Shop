@@ -28,4 +28,3 @@ C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Deb
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Nevena\Desktop\project-shop\PresentationLayer\PresentationLayer\obj\Debug\PresentationLayer.UpdateProduct.resources

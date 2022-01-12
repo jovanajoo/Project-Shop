@@ -25,10 +25,13 @@ namespace PresentationLayer
         {
             if(textBoxUserName.Text.Length != 0 && textBoxPassword.Text.Length != 0)
             {
+
                 Customer c = customerBusiness.GetCustomerByUserAndPass(textBoxUserName.Text, textBoxPassword.Text);
                 if(c != null)
                 {
+                    MainForm.currentCustomer = c;
                     MessageBox.Show("You have successfully logged in!");
+                    this.Close();
                 }
                 else
                 {

@@ -22,5 +22,47 @@ namespace BusinessLayer
         {
             return this.orderRepository.GetAllOrders();
         }
+
+        public bool InsertOrders(Order o)
+        {
+            if(this.orderRepository.InsertOrders(o) > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public int GetNowOrder()
+        {
+            return this.orderRepository.GetNewOrder();
+        }
+
+        public bool DeleteOrdersById(int OrderID)
+        {
+            if (this.orderRepository.DeleteOrdersById(OrderID) > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool UpdateOrder(Order o)
+        {
+            if (this.orderRepository.UpdateOrder(o) > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

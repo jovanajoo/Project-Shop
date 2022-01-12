@@ -10,5 +10,9 @@ namespace Shared.Interfaces.Business
     public interface IOrderBusiness
     {
         List<Order> GetAllOrders();
+        bool InsertOrders(Order o);
+        int GetNowOrder();
+        bool DeleteOrdersById(int OrderID);
+        bool UpdateOrder(Order o);
     }
 }

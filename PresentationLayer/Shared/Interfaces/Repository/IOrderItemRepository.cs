@@ -10,5 +10,7 @@ namespace Shared.Interfaces.Repository
     public interface IOrderItemRepository
     {
         List<OrderItem> GetAllOrderItems();
+        int InsertOrderItems(OrderItem oi);
+
     }
 }

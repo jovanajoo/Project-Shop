@@ -10,5 +10,11 @@ namespace Shared.Interfaces.Repository
     public interface IOrderRepository
     {
         List<Order> GetAllOrders();
+        int InsertOrders(Order o);
+        int GetNewOrder();
+        int DeleteOrdersById(int OrderID);
+        int UpdateOrder(Order o);
+
+
     }
 }

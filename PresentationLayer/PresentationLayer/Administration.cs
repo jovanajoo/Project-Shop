@@ -161,6 +161,11 @@ namespace PresentationLayer
 
         }
 
-      
+        private void textBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            List<Product> list = this.productBusiness.GetAllProducts();
+            list = list.Where(p => p.Name.ToLower().Contains(textBoxSearch.Text.ToLower())).ToList();
+            dataGridView1.DataSource = list;
+        }
     }
 } 

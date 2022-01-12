@@ -9,6 +9,8 @@ namespace Shared.Interfaces.Business
 {
     public interface IOrderItemBusiness
     {
-        List<Order> GetAllOrders();
+        List<OrderItem> GetAllOrderItems();
+        bool InsertOrderItems(OrderItem oi);
+
     }
 }

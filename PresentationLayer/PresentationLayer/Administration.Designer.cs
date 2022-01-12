@@ -60,6 +60,8 @@ namespace PresentationLayer
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxSearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -74,10 +76,10 @@ namespace PresentationLayer
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
@@ -92,7 +94,7 @@ namespace PresentationLayer
             this.ColumnDescription,
             this.ColumnCategoryId});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.Location = new System.Drawing.Point(396, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(400, 0);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -192,7 +194,7 @@ namespace PresentationLayer
             this.textBoxProductId.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxProductId.Location = new System.Drawing.Point(43, 114);
             this.textBoxProductId.Name = "textBoxProductId";
-            this.textBoxProductId.Size = new System.Drawing.Size(285, 29);
+            this.textBoxProductId.Size = new System.Drawing.Size(142, 29);
             this.textBoxProductId.TabIndex = 23;
             // 
             // label4
@@ -211,7 +213,7 @@ namespace PresentationLayer
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(295, 32);
+            this.label5.Location = new System.Drawing.Point(315, 32);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 32);
             this.label5.TabIndex = 21;
@@ -222,7 +224,7 @@ namespace PresentationLayer
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(81, 32);
+            this.label6.Location = new System.Drawing.Point(91, 31);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(218, 54);
             this.label6.TabIndex = 20;
@@ -244,9 +246,9 @@ namespace PresentationLayer
             this.buttonSaveData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
             this.buttonSaveData.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSaveData.ForeColor = System.Drawing.Color.White;
-            this.buttonSaveData.Location = new System.Drawing.Point(186, 548);
+            this.buttonSaveData.Location = new System.Drawing.Point(185, 545);
             this.buttonSaveData.Name = "buttonSaveData";
-            this.buttonSaveData.Size = new System.Drawing.Size(164, 48);
+            this.buttonSaveData.Size = new System.Drawing.Size(143, 46);
             this.buttonSaveData.TabIndex = 15;
             this.buttonSaveData.Text = "Add Product";
             this.buttonSaveData.UseVisualStyleBackColor = false;
@@ -327,7 +329,7 @@ namespace PresentationLayer
             this.textBoxSize.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSize.Location = new System.Drawing.Point(43, 323);
             this.textBoxSize.Name = "textBoxSize";
-            this.textBoxSize.Size = new System.Drawing.Size(123, 29);
+            this.textBoxSize.Size = new System.Drawing.Size(132, 29);
             this.textBoxSize.TabIndex = 10;
             // 
             // labelPassword
@@ -374,9 +376,9 @@ namespace PresentationLayer
             this.buttonUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
             this.buttonUpdate.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonUpdate.ForeColor = System.Drawing.Color.White;
-            this.buttonUpdate.Location = new System.Drawing.Point(341, 78);
+            this.buttonUpdate.Location = new System.Drawing.Point(242, 78);
             this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(161, 48);
+            this.buttonUpdate.Size = new System.Drawing.Size(164, 43);
             this.buttonUpdate.TabIndex = 16;
             this.buttonUpdate.Text = "Update";
             this.buttonUpdate.UseVisualStyleBackColor = false;
@@ -387,7 +389,7 @@ namespace PresentationLayer
             this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
             this.buttonDelete.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDelete.ForeColor = System.Drawing.Color.White;
-            this.buttonDelete.Location = new System.Drawing.Point(63, 78);
+            this.buttonDelete.Location = new System.Drawing.Point(6, 78);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(165, 43);
             this.buttonDelete.TabIndex = 20;
@@ -398,6 +400,8 @@ namespace PresentationLayer
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(30)))), ((int)(((byte)(70)))));
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.textBoxSearch);
             this.panel2.Controls.Add(this.buttonUpdate);
             this.panel2.Controls.Add(this.buttonDelete);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -405,6 +409,26 @@ namespace PresentationLayer
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(737, 161);
             this.panel2.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(441, 43);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(200, 23);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "Search product by Name";
+            // 
+            // textBoxSearch
+            // 
+            this.textBoxSearch.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSearch.Location = new System.Drawing.Point(445, 84);
+            this.textBoxSearch.Name = "textBoxSearch";
+            this.textBoxSearch.Size = new System.Drawing.Size(219, 30);
+            this.textBoxSearch.TabIndex = 21;
+            this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
             // Administration
             // 
@@ -415,6 +439,7 @@ namespace PresentationLayer
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Administration";
             this.Text = "Administration";
             this.Load += new System.EventHandler(this.Administration_Load);
@@ -423,6 +448,7 @@ namespace PresentationLayer
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -459,5 +485,7 @@ namespace PresentationLayer
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBoxProductId;
         private System.Windows.Forms.Label labelProductId;
+        private System.Windows.Forms.TextBox textBoxSearch;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -92,12 +92,6 @@
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdateProduct.Designer.cs">
-      <DependentUpon>UpdateProduct.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Administration.resx">
       <DependentUpon>Administration.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,9 +108,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdateProduct.resx">
-      <DependentUpon>UpdateProduct.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

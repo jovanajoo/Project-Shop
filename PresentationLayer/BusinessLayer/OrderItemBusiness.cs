@@ -11,11 +11,29 @@ namespace BusinessLayer
 {
     public class OrderItemBusiness : IOrderItemBusiness
     {
-        private readonly IOrderRepository orderRepository;
+        private readonly IOrderItemRepository orderItemRepository;
 
-        public List<Order> GetAllOrders()
+
+        public OrderItemBusiness(IOrderItemRepository _orderItemRepository)
         {
-            return this.orderRepository.GetAllOrders();
+            this.orderItemRepository = _orderItemRepository;
+        }
+
+        public List<OrderItem> GetAllOrderItems()
+        {
+            return this.orderItemRepository.GetAllOrderItems();
+        }
+
+        public bool InsertOrderItems(OrderItem oi)
+        {
+            if (this.orderItemRepository.InsertOrderItems(oi) > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
