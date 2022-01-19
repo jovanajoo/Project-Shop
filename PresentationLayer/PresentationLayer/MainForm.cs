@@ -116,7 +116,6 @@ namespace PresentationLayer
 
                 foreach(DataGridViewRow row in dataGridViewBill.Rows)
                 {
-
                     OrderItem oi = new OrderItem()
                     {
                         OrderID = o.OrderID,
@@ -125,10 +124,9 @@ namespace PresentationLayer
 
                     };
                     this.orderItemBusiness.InsertOrderItems(oi);
-
                 }
                 dataGridViewBill.Rows.Clear();
-                MessageBox.Show("Thank you for buying! See you Tepic again");
+                MessageBox.Show("Thank you for buying! See you again");
                 GrdTotal = 0.0M;
                 labelGrandTotal.Text = "";
             }

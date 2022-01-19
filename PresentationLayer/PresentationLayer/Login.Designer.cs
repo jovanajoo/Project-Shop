@@ -121,6 +121,7 @@ namespace PresentationLayer
             this.buttonToReg.TabIndex = 7;
             this.buttonToReg.Text = "Click here to registrated";
             this.buttonToReg.UseVisualStyleBackColor = false;
+            this.buttonToReg.Click += new System.EventHandler(this.buttonToReg_Click);
             // 
             // label1
             // 

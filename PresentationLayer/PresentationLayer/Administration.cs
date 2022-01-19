@@ -143,7 +143,6 @@ namespace PresentationLayer
                     pictureBox1.Image = null;
 
                     dataGridView1.DataSource = this.productBusiness.GetAllProducts();
-
                 }
             }
         }
@@ -156,9 +155,6 @@ namespace PresentationLayer
             textBoxSize.Text = dataGridView1.SelectedRows[0].Cells["ColumnSize"].Value.ToString();
             textBoxDescription.Text = dataGridView1.SelectedRows[0].Cells["ColumnDescription"].Value.ToString();
             textBoxCategoryId.Text = dataGridView1.SelectedRows[0].Cells["ColumnCategoryId"].Value.ToString();
-
-            
-
         }
 
         private void textBoxSearch_TextChanged(object sender, EventArgs e)

@@ -43,5 +43,12 @@ namespace PresentationLayer
                 MessageBox.Show("Please enter your username and password!");
             }
         }
+
+        private void buttonToReg_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registration r = new Registration(this.customerBusiness);
+            r.ShowDialog();
+        }
     }
 }
